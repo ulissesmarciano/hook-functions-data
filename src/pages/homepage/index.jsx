@@ -1,13 +1,17 @@
-import React from 'react'
+// HomePage.js
+import React from 'react';
+import DarkMode from '../../components/dark-mode/DarkMode';
+
 
 const HomePage = () => {
   return (
-    <div>
-      teste
-    </div>
-  )
-}
+    <>
+      <DarkMode />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
+
 
 
